@@ -1,0 +1,45 @@
+form{
+    max-width: 500px;
+    padding: 200px;
+    border: 1px rgb(238, 92, 7);
+    border-radius: 8px ;
+    background-color: rgb(10, 181, 233);
+}
+
+form div{
+    margin-bottom: 15;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[ type="text"], input[type], textarea,select{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px silver;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: blueviolet;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: rgb(238, 132, 12);
+
+}
+img{
+    width: 150px;
+    height: 150;   
+    border-radius: 100%; 
+    object-fit: cover;   
+}
